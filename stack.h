@@ -1,3 +1,4 @@
+// Modified by 202412823 허찬
 #ifndef STACK_H
 #define STACK_H
 #include <stdbool.h> 
@@ -18,4 +19,5 @@ Item pop(Stack *s);
 Item peek(Stack *s);
 static void stack_underflow(void);
 static void reallocate(Stack * stack);
+
 #endif
